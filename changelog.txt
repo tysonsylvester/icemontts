@@ -1,0 +1,29 @@
+# Version 1.0.1 Change Log
+
+## Features
+
+- **Enhanced Library Installation:**
+  - Added user prompt to install required libraries at the beginning.
+  - Users can choose to install libraries or proceed manually.
+
+- **Desktop Notifications:**
+  - Introduced the option to enable or disable desktop notifications.
+  - Integrated `py-notifier` for desktop notifications.
+
+- **Threshold-based Alerts:**
+  - Implemented low and high listener count thresholds for alerts.
+  - Sends desktop notifications when listener count exceeds or falls below these thresholds.
+
+- **Improved Error Handling:**
+  - Enhanced error handling for library installation with detailed error messages.
+  - Improved handling of installation errors to guide users effectively.
+
+- **User Documentation:**
+  - Added important considerations and guidelines for monitoring the Icecast server at the start of the script.
+
+- **User Input Refinements:**
+  - Simplified user input for monitoring interval and added clear explanations.
+
+- **Accessibility and User Customization:**
+  - Improved user experience by allowing users to enable or disable desktop notifications.
+
